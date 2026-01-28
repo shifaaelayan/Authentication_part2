@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-27T16:24:14 AST" name="Suite" finished-at="2026-01-27T16:24:43 AST" duration-ms="29355">
+    <groups>
+    </groups>
+    <test started-at="2026-01-27T16:24:14 AST" name="Test" finished-at="2026-01-27T16:24:24 AST" duration-ms="10203">
+      <class name="authentication.Invocations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:authentication.Invocations@7cbc3762]" started-at="2026-01-27T16:24:14 AST" name="setup" finished-at="2026-01-27T16:24:19 AST" duration-ms="4792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signup()[pri:1, instance:authentication.Invocations@7cbc3762]" started-at="2026-01-27T16:24:19 AST" name="signup" finished-at="2026-01-27T16:24:23 AST" duration-ms="4203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:2, instance:authentication.Invocations@7cbc3762]" started-at="2026-01-27T16:24:23 AST" name="login" finished-at="2026-01-27T16:24:24 AST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:authentication.Invocations@7cbc3762]" started-at="2026-01-27T16:24:24 AST" name="cleanup" finished-at="2026-01-27T16:24:24 AST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- authentication.Invocations -->
+    </test> <!-- Test -->
+    <test started-at="2026-01-27T16:24:24 AST" name="Invocation_Test2" finished-at="2026-01-27T16:24:35 AST" duration-ms="10786">
+      <class name="authentication.Invocations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:authentication.Invocations@3542162a]" started-at="2026-01-27T16:24:24 AST" name="setup" finished-at="2026-01-27T16:24:28 AST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signup()[pri:1, instance:authentication.Invocations@3542162a]" started-at="2026-01-27T16:24:28 AST" name="signup" finished-at="2026-01-27T16:24:30 AST" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:2, instance:authentication.Invocations@3542162a]" started-at="2026-01-27T16:24:30 AST" name="login" finished-at="2026-01-27T16:24:35 AST" duration-ms="4938" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"input[data-qa='login-email']"}
+  (Session info: MicrosoftEdge=144.0.3719.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1b562d89c214082242f8f1fba75e3ca7, findElement {using=css selector, value=input[data-qa='login-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 11948, ms:edgeOptions: {debuggerAddress: localhost:58832}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58832/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b562d89c214082242f8f1fba75e3ca7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[data-qa='login-email']"}
+  (Session info: MicrosoftEdge=144.0.3719.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1b562d89c214082242f8f1fba75e3ca7, findElement {using=css selector, value=input[data-qa='login-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 11948, ms:edgeOptions: {debuggerAddress: localhost:58832}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\Dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58832/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b562d89c214082242f8f1fba75e3ca7
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at authentication.Invocations.login(Invocations.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:authentication.Invocations@3542162a]" started-at="2026-01-27T16:24:35 AST" name="cleanup" finished-at="2026-01-27T16:24:35 AST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- authentication.Invocations -->
+    </test> <!-- Invocation_Test2 -->
+    <test started-at="2026-01-27T16:24:35 AST" name="Invocation_Test3" finished-at="2026-01-27T16:24:43 AST" duration-ms="8296">
+      <class name="authentication.Invocations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:authentication.Invocations@41813449]" started-at="2026-01-27T16:24:35 AST" name="setup" finished-at="2026-01-27T16:24:39 AST" duration-ms="3858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signup()[pri:1, instance:authentication.Invocations@41813449]" started-at="2026-01-27T16:24:39 AST" name="signup" finished-at="2026-01-27T16:24:42 AST" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:2, instance:authentication.Invocations@41813449]" started-at="2026-01-27T16:24:42 AST" name="login" finished-at="2026-01-27T16:24:43 AST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:authentication.Invocations@41813449]" started-at="2026-01-27T16:24:43 AST" name="cleanup" finished-at="2026-01-27T16:24:43 AST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- authentication.Invocations -->
+    </test> <!-- Invocation_Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

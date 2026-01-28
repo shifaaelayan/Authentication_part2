@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="authentication.AuthTest">
+        <methods>
+          <include name="myAfterTest"/>
+          <include name="signUpTitleInfo"/>
+          <include name="logIn"/>
+          <include name="logOut"/>
+          <include name="deleteAccount"/>
+          <include name="mySetup"/>
+          <include name="signUp"/>
+          <include name="signUpAddressInfo"/>
+          <include name="createProcess"/>
+          <include name="clickToMove"/>
+        </methods>
+      </class> <!-- authentication.AuthTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
